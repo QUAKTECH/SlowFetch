@@ -6,7 +6,7 @@
 ## Slowfetch
 a minimalistic system info CLI like fastfetch/neofetch
 
-## DevS
+## Devs
 [AeternusDio](https://github.com/AeternusDio)
 [Cupboardmanufracturer](https://github.com/cupboardmanufracturer)
 
