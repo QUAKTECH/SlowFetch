@@ -6,8 +6,8 @@
 ## Slowfetch
 a minimalistic system info CLI like fastfetch/neofetch
 
-## collabarators:
-	[AeternusDio](https://github.com/AeternusDio)
+## collabarators
+[AeternusDio](https://github.com/AeternusDio)
 
 ## Licence
 The GNU GPL Version 3 or later.
