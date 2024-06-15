@@ -1,6 +1,5 @@
 #!/bin/bash
 # Authors of SlowFetch: Chatgpt, Cupbaordmanufacturer, Aeternusdio.
-# SLOWFETCH IS DUEL LICENCED UNDER THE GNU AND MIT LICENCES RESPECTIVELY.
 # The MIT License (MIT)
 #
 # Copyright (c) 2024 Apache Software Production. (ASP)
