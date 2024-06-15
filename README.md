@@ -6,8 +6,9 @@
 ## Slowfetch
 a minimalistic system info CLI like fastfetch/neofetch
 
-## collabarators
+## DevS
 [AeternusDio](https://github.com/AeternusDio)
+[Cupboardmanufracturer](https://github.com/cupboardmanufracturer)
 
 ## Licence
 The GNU GPL Version 3 or later.
