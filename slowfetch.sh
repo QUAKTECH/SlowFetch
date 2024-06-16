@@ -1,5 +1,6 @@
 #!/bin/bash
 # Authors of SlowFetch: Chatgpt, Cupbaordmanufacturer, Aeternusdio.
+# SLOWFETCH IS DUEL LICENCED UNDER THE GNU AND MIT LICENCES RESPECTIVELY.
 # The MIT License (MIT)
 #
 # Copyright (c) 2024 Apache Software Production. (ASP)
@@ -83,6 +84,7 @@ get_gpu() {
     gpu="${red}GPU:${reset} $GPU_INFO"
 }
 
+
 get_host() {
     length=$((width * 2))
     FHOST="$USER@$HOSTNAME"
@@ -130,7 +132,7 @@ compare_size() {
 }
 
 get_display_manager() {
-    display_info="${red}Display Manager:${reset} $XDG_SESSION_TYPE"
+    display_info="${red}DM:${reset} $XDG_SESSION_TYPE"
 }
 
 # Function to get desktop environment
@@ -169,6 +171,8 @@ show_system_info() {
     echo -e " $os"
     echo -e " $kernal"
     echo -e " $up"
+    echo -e " $display_info"
+    echo -e " $de_info"
     echo -e " $cpu"
     echo -e " $gpu"
     echo -e " $mem"
@@ -195,3 +199,4 @@ get_desktop_environment
 compare_size
 get_host
 show_system_info
+
