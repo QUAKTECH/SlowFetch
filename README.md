@@ -11,7 +11,7 @@ a minimalistic system info CLI like fastfetch/neofetch
 [Cupboardmanufracturer](https://github.com/cupboardmanufracturer)
 
 ## Licence
-The GNU GPL Version 3 or later.
+MIT
 
 ## Roadmap and future fetures
 - Make it look better
