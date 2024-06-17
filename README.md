@@ -9,6 +9,7 @@ a minimalistic system info CLI like fastfetch/neofetch
 ## Devs
 [AeternusDio](https://github.com/AeternusDio)
 [Cupboardmanufracturer](https://github.com/cupboardmanufracturer)
+chatgpt
 
 ## Licence
 MIT
