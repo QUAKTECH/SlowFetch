@@ -6,7 +6,7 @@
 # Version: 1.2.0
 # Authors: Chatgpt, Cupbaordmanufacturer, Aeternusdio.
 # [ Edited with Vim. ]
-# Date Written: Tuesday June 18, 2024
+# Date Written: Saturday June 15, 2024
 #
 # Acknowledgments:
 #   Chatgpt made a lot of it.
