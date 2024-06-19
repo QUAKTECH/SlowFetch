@@ -6,6 +6,11 @@
 ## Slowfetch
 a minimalistic system info CLI like fastfetch/neofetch
 
+## Install
+```./install```
+to run just type;
+```slowfetch```
+
 ## Devs
 [AeternusDio](https://github.com/AeternusDio)
 [Cupboardmanufracturer](https://github.com/cupboardmanufracturer)
