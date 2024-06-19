@@ -1,6 +1,27 @@
 #!/bin/bash
-# Authors of SlowFetch: Chatgpt, Cupbaordmanufacturer, Aeternusdio.
-# SLOWFETCH IS DUEL LICENCED UNDER THE GNU AND MIT LICENCES RESPECTIVELY.
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+#                   -- [ SlowFetch ] --                     #  
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+# Software Name: SlowFetch
+# Version: 1.2.0
+# Authors: Chatgpt, Cupbaordmanufacturer, Aeternusdio.
+# [ Edited with Vim. ]
+# Date Written: Tuesday June 18, 2024
+#
+# Acknowledgments:
+#   Chatgpt made a lot of it.
+#
+# Description:
+#   A simple command line tool like Neofetch/Fastfetch for system info.
+#
+# License: ASP License V2 & MIT (Dual Licensed)
+# Website: No Wesbite.
+# Contact: No Contact.
+#
+# Dependencies:
+# - BASH
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+#
 # The MIT License (MIT)
 #
 # Copyright (c) 2024 Apache Software Production. (ASP)
