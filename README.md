@@ -17,7 +17,7 @@ to run just type;
 chatgpt
 
 ## Licence
-MIT
+MIT & QUAKTECH License v2
 
 ## Roadmap and future fetures
 - Make it look better
