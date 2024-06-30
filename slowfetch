@@ -79,10 +79,20 @@ get_cpu_info() {
     cpu="${red}CPU:${reset} $CPU_INFO"
 }
 
+
+# Calculate percentage for memory
+memory_used=$(free --si | awk '/^Mem/ {print $3}')
+memory_total=$(free --si | awk '/^Mem/ {print $2}')
+memory_percentage=$(get_percentage "$memory_used" "$memory_total")
+
+# Calculate percentage for swap
+swap_used=$(free --si | awk '/^Swap/ {print $3}')
+swap_total=$(free --si | awk '/^Swap/ {print $2}')
+swap_percentage=$(get_percentage "$swap_used" "$swap_total")
 # Function to get memory information
 get_memory_info() {
-    TOTAL_MEM=$(free -h | awk '/^Mem:/ {print $2}')
-    TOTAL_SWP=$(free -h | awk '/^Swap:/ {print $2}')
+    TOTAL_MEM=$(free -h --si | awk '/^Mem/ {print $3 " / " $2}')
+    TOTAL_SWP=$(free -h --si | awk '/^Swap/ {print $3 " / " $2}')
     mem="${red}Memory:${reset} $TOTAL_MEM"
     swp="${red}Swap:${reset} $TOTAL_SWP"
 }
