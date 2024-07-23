@@ -7,9 +7,12 @@
 a minimalistic system info CLI like fastfetch/neofetch
 
 ## Install
-```./install```
-to run just type;
-```slowfetch```
+``git clone https://github.com/QUAKTECH/SlowFetch`` <br>
+``gcc -o install install.c -lncurses`` <br>
+``./install``
+
+## Dependencies
+lncurses
 
 ## Devs
 [AeternusDio](https://github.com/AeternusDio)
